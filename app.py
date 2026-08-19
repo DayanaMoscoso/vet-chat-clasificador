@@ -51,7 +51,7 @@ st.write("Escribe o pega un mensaje del chat para ver a qué categoría pertenec
 # ============================================
 # ENTRADA DE MENSAJE
 # ============================================
-mensaje = st.text_area("Mensaje del cliente:", height=100, placeholder="Ej: Mi perro no ha comido en dos días y está muy decaído")
+mensaje = st.text_area("Mensaje del cliente:", height=100, placeholder="Ej: Mi gato no ha comido en dos días y está muy decaído")
 
 col1, col2 = st.columns([1, 1])
 with col1:
